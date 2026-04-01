@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { motion } from 'framer-motion';
+import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 import { ArrowUpRight } from 'lucide-react';
 
@@ -18,7 +18,7 @@ export default function SpeakerCard({ speaker }: { speaker: SpeakerProps }) {
   const [isHovered, setIsHovered] = useState(false);
 
   // Framer Motion variants for the staggered content reveal
-  const contentVariants = {
+  const contentVariants: Variants = {
     hidden: { opacity: 0, y: 20 },
     visible: { 
       opacity: 1, 
@@ -27,7 +27,7 @@ export default function SpeakerCard({ speaker }: { speaker: SpeakerProps }) {
     }
   };
 
-  const gradientVariants = {
+  const gradientVariants: Variants = {
     hidden: { opacity: 0 },
     visible: { opacity: 1, transition: { duration: 0.4 } }
   };
