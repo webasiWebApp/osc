@@ -11,7 +11,7 @@ export default function HeroSec() {
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
   return (
-    <section className="relative w-full max-w-[1500px] mx-auto px-4 md:px-6 lg:px-8 pb-4 mt-10 md:mt-10 h-[85vh] min-h-[650px]">
+    <section className="relative w-full  mx-auto px-4 md:px-6 lg:px-16 pb-4 mt-10 md:mt-10 h-[85vh] min-h-[650px]">
       
       {/* Custom Keyframe for Zoom In-Out Loop Animation */}
       <style>{`

@@ -7,7 +7,7 @@ import CTAButton from './CTAButton';
 
 export default function Cta() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 py-16 lg:py-24">
+    <section className="w-full  mx-auto px-20 py-16 lg:py-24">
       {/* Main Container */}
       <div className="relative w-full rounded-[2.5rem] bg-surface-deep overflow-hidden flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 gap-10 lg:gap-16 shadow-2xl">
         

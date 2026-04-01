@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
+import { HeartPulse } from 'lucide-react';
 
 // We define an interface so the component knows to expect a 'text' string from the parent
 export interface WhyTMProps {
@@ -22,10 +23,7 @@ export default function WhyTM({ text, iconUrl = "/teeth-icon.png" }: WhyTMProps)
       <div className="relative z-10 w-12 h-12 md:w-14 md:h-14 flex-shrink-0 flex items-center justify-center">
         <div className="relative w-7 h-7 md:w-8 md:h-8">
           
-          {/* Using SVG fallback until you swap it out for the <Image /> tag with your custom teeth icon */}
-          <svg viewBox="0 0 24 24" fill="none" stroke="#03045E" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" className="w-full h-full">
-            <path d="M10 21c-1 0-2-1.5-2-3v-4c0-1.5-1-3-3-3h0c-1.5 0-3-1.5-3-3V5c0-1.5 1.5-3 3-3h14c1.5 0 3 1.5 3 3v3c0 1.5-1.5 3-3 3h0c-2 0-3 1.5-3 3v4c0 1.5-1 3-2 3s-2-1.5-2-3v-2c0-1-1-2-2-2s-2 1-2 2v2c0 1.5-1 3-2 3z"/>
-          </svg>
+          <HeartPulse className="w-full h-full text-primary " strokeWidth={1.5} />
           
         </div>
       </div>

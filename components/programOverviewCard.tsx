@@ -98,7 +98,7 @@ export default function ProgramOverviewCard({ data }: { data: ProgramOverviewPro
         <ul className="flex flex-col gap-3">
           {data.bullets.map((bullet, index) => (
             <li key={index} className="flex items-start gap-3">
-              <div className="mt-1.5 h-6 w-6 flex-shrink-0 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.5)]" />
+              <div className="mt-1.5 h-3 w-3 flex-shrink-0 rounded-full bg-white shadow-[0_0_8px_rgba(255,255,255,0.5)]" />
               <span className="text-sm font-light leading-relaxed text-blue-100">
                 {bullet}
               </span>

@@ -17,29 +17,29 @@ export default function IconList() {
       title: 'Infection',
       description: 'Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology.',
       // Replace with your actual image path in the /public folder
-      iconSrc: '/icons/virus-icon.svg', 
+      iconSrc: '/secondSec/1.png', 
     },
     {
       id: 'imbalance',
       title: 'Imbalance',
       description: 'Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology.',
-      iconSrc: '/icons/syringe-icon.svg',
+      iconSrc: '/secondSec/2.png',
     },
     {
       id: 'systemic-health',
       title: 'Systemic Health',
       description: 'Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology.',
-      iconSrc: '/icons/shield-icon.svg',
+      iconSrc: '/secondSec/3.png',
     }
   ];
 
   return (
-    <section className="w-full max-w-7xl mx-auto px-6 py-16">
+    <section className="w-full px-16 mx-auto px-1 ">
       {/* Responsive grid: 1 column on mobile, 3 columns on desktop */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 items-center justify-center flex">
         
         {items.map((item) => (
-          <div key={item.id} className="flex items-start gap-5 group">
+          <div key={item.id} className="flex items-start  gap-5 group">
             
             {/* Icon Container: The dark blue circle */}
             <div className="relative flex-shrink-0 w-[4.5rem] h-[4.5rem] rounded-full bg-primary flex items-center justify-center shadow-sm transition-transform duration-300 group-hover:scale-105">
@@ -49,9 +49,7 @@ export default function IconList() {
                   alt={`${item.title} icon`}
                   fill
                   className="object-contain"
-                  // Inverting the image color if you are using standard black SVGs. 
-                  // If your images are already white, you can remove the 'invert' class.
-                  style={{ filter: 'invert(1)' }} 
+              
                 />
               </div>
             </div>

@@ -44,7 +44,7 @@ export default function SpeakerCard({ speaker }: { speaker: SpeakerProps }) {
           src={speaker.imageSrc} 
           alt={speaker.name} 
           fill 
-          className="object-contain object-bottom"
+          className="object-cover object-bottom"
           sizes="(max-width: 768px) 100vw, 320px"
         />
       </div>
@@ -65,27 +65,27 @@ export default function SpeakerCard({ speaker }: { speaker: SpeakerProps }) {
           variants={contentVariants}
           initial="hidden"
           animate={isHovered ? "visible" : "hidden"}
-          className="mb-4"
+          className="mb-4 text-left w-full"
         >
-          <h3 className="text-2xl font-bold text-primary mb-1">
+          <h3 className="text-3xl font-semibold text-primary mb-1 tracking-tight">
             {speaker.name}
           </h3>
-          <p className="text-xs font-medium text-primary mb-3">
+          <p className="text-sm font-light text-white/90 mb-3">
             {speaker.roles}
           </p>
-          <p className="text-sm text-white/95 leading-relaxed">
+          <p className="text-[10px] font-light text-white leading-relaxed">
             {speaker.bio}
           </p>
         </motion.div>
 
         {/* Floating "More About" Button */}
         {/* It stays at the bottom right, but changes background slightly on hover to match the images */}
-        <div className=" flex justify-end w-full">
+        {/* <div className=" flex justify-end w-full">
           <CTAButton 
             btnText="More About" 
             className="scale-90 origin-right transition-transform" 
           />
-        </div>
+        </div> */}
 
       </div>
     </div>

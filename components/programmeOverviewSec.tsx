@@ -13,7 +13,7 @@ export default function ProgrammeOverviewSec() {
       dayLabel: "Day 01",
       title: "Public Education Day",
       subtitle: "Oral Health, Pathology, and the Impact of Mercury",
-      imageSrc: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=800", // Replace with your actual image
+      imageSrc: "https://images.unsplash.com/photo-1740410643780-883b33ee1b86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGNsaW5pY3xlbnwwfDB8MHx8fDI%3D", // Replace with your actual image
       description: "Understand how oral health influences the entire body — from inflammation to chronic disease.",
       bullets: [
         "The connection between oral health and systemic health",
@@ -26,13 +26,13 @@ export default function ProgrammeOverviewSec() {
       dayLabel: "Day 02",
       title: "Practitioner Day",
       subtitle: "Oral-Systemic Infection Clinical Conference",
-      imageSrc: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=800", // Replace with your actual image
-      description: "Dive deeper into clinical applications, diagnostics, and integrative care strategies for your practice.",
+      imageSrc: "https://images.unsplash.com/photo-1652148439208-3e73641d0725?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NzF8fGNsaW5pY3xlbnwwfDB8MHx8fDI%3D", // Replace with your actual image
+      description: "Delivered in a clear and practical way to help you better understand your health and make informed decisions.",
       bullets: [
-        "Clinical insights into oral microbiome imbalances",
-        "Advanced diagnostics and interpretation",
-        "Integrative treatment protocols and patient management",
-        "Interactive case studies and clinical Q&A"
+        "Infection-driven inflammation",
+        "Systemic disease correlations",
+        "Clinical case insights",
+        "Translational application"
       ]
     }
   ];
@@ -65,7 +65,7 @@ export default function ProgrammeOverviewSec() {
       </div>
 
       {/* Grid Layout for the Cards */}
-      <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 place-items-center md:place-items-stretch">
+      <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-6 place-items-center md:place-items-stretch">
         {programData.map((dayData, index) => (
           <ProgramOverviewCard key={index} data={dayData} />
         ))}

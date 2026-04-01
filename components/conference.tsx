@@ -17,7 +17,7 @@ export default function Conference({
   imageSrc = "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=600" // Placeholder
 }: ConferenceStepProps) {
   return (
-    <section className="relative w-full max-w-6xl mx-auto px-6 py-12 overflow-hidden">
+    <section className="relative w-full max-w-5xl mx-auto px-6 py-6 md:py-8 overflow-hidden">
       
       {/* The continuous timeline dotted line. 
         Positioned absolutely to run vertically down the right side of the container. 

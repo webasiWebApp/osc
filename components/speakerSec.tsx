@@ -13,74 +13,74 @@ export default function SpeakerSec() {
       name: "Dr. Simone Sleep",
       roles: "Biomedical Scientist | Oral Infection Researcher",
       bio: "Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology, and Public Health.",
-      imageSrc: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400&h=500", // Placeholder
+      imageSrc: "/team/1.png", 
     },
     {
       name: "Dr. Andrew Taylor",
       roles: "Biological Dentist | Mercury-Free Expertise",
       bio: "Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology, and Public Health.",
-      imageSrc: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400&h=500", // Placeholder
+      imageSrc: "/team/2.png", 
     },
     {
       name: "Dr. Blanche Crabe",
       roles: "Biological Dentist | Integrative Medicine",
       bio: "Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology, and Public Health.",
-      imageSrc: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=400&h=500", // Placeholder
+      imageSrc: "/team/3.png", 
     },
     {
       name: "Susan Russle",
       roles: "Dental Hygienist | Oral Microbiome Educator",
       bio: "Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology, and Public Health.",
-      imageSrc: "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?auto=format&fit=crop&q=80&w=400&h=500", // Placeholder
+      imageSrc: "/team/4.png", 
     },
     {
       // This is the 5th "extra" bio the client mentioned in the chat
       name: "Guest Speaker (TBA)",
       roles: "Integrative Health Specialist",
       bio: "Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology, and Public Health.",
-      imageSrc: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&q=80&w=400&h=500", // Placeholder
+      imageSrc: "/team/5.png", 
     },
     {
       name: "Panel Discussion",
       roles: "All Speakers & Q&A",
       bio: "Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology, and Public Health.",
-      imageSrc: "https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&q=80&w=400&h=500", // Placeholder
+      imageSrc: "/team/6.png", 
     }
   ];
 
   return (
     <section className="w-full max-w-7xl mx-auto px-6 py-16 lg:py-24 flex flex-col items-center text-center">
-      
+
       {/* Header Area */}
       <div className="max-w-3xl flex flex-col items-center mb-10">
         <h2 className="text-4xl md:text-5xl font-light text-primary tracking-tight mb-4">
           Meet the Speakers
         </h2>
         <p className="text-sm md:text-base text-gray-600 font-light leading-relaxed">
-          Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, 
-          Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, 
+          Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry,
+          Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology,
           Microbiology, and Public Health.
         </p>
       </div>
 
       {/* Top CTA Button */}
       {/* Using the 'solid' variant to perfectly match your dark blue mockup button */}
-      <div className="mb-14">
-        <CTAButton 
-          btnText="Meet the Speakers" 
-          variant="solid" 
+      {/* <div className="mb-14">
+        <CTAButton
+          btnText="Meet the Speakers"
+          variant="solid"
           onClick={() => {
             // Optional: If you want this button to scroll down to the grid instead of navigating away
             const speakerGrid = document.getElementById('speaker-grid');
             speakerGrid?.scrollIntoView({ behavior: 'smooth' });
           }}
         />
-      </div>
+      </div> */}
 
       {/* Responsive Speaker Grid */}
-      <div 
+      <div
         id="speaker-grid"
-        className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 place-items-center"
+        className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 place-items-center"
       >
         {speakers.map((speaker, index) => (
           <SpeakerCard key={index} speaker={speaker} />

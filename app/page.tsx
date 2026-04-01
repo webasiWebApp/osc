@@ -9,81 +9,98 @@ import Conference from "@/components/conference";
 import PackageSec from "@/components/packageSec";
 import ContactForm from "@/components/contactForm";
 import Cta from "@/components/cta";
+import BlurFadeIn from "@/components/blurFadeIn";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 bg-white font-sans min-h-screen pt-20">
-      <main className="flex flex-col w-full overflow-hidden">
+    <div className="flex flex-col flex-1 font-sans min-h-screen pt-20">
+      <main className="flex flex-col w-full overflow-hidden gap-[100px] pb-[100px]">
         
-        <div id="home">
+        <BlurFadeIn id="home">
           <HeroSec />
-        </div>
+        </BlurFadeIn>
         
-        <div className="w-full flex justify-center mt-12 md:mt-24">
+        <BlurFadeIn className="flex justify-center">
           <IconList />
-        </div>
+        </BlurFadeIn>
         
-        <div id="about" className="w-full flex justify-center bg-white pt-10 pb-20">
+        <BlurFadeIn id="about" className="flex justify-center">
           <AboutSec />
-        </div>
+        </BlurFadeIn>
         
-        <div id="speakers" className="w-full flex justify-center bg-zinc-50 py-24">
+        <BlurFadeIn id="speakers" className="flex justify-center">
           <SpeakerSec />
-        </div>
+        </BlurFadeIn>
         
-        <div className="w-full flex justify-center bg-white pt-24 pb-10">
+        <BlurFadeIn className="flex justify-center">
           <WhyTMSec />
-        </div>
+        </BlurFadeIn>
         
-        <div className="w-full flex justify-center bg-white py-12">
+        <BlurFadeIn className="flex justify-center">
           <TextSec />
-        </div>
+        </BlurFadeIn>
         
-        <div id="program" className="w-full flex justify-center bg-white py-24">
+        <BlurFadeIn id="program" className="flex justify-center">
           <ProgrammeOverviewSec />
-        </div>
+        </BlurFadeIn>
         
-        <section className="w-full flex flex-col items-center py-16 bg-white gap-8 mb-16">
-          <Conference 
-            stepNumber="01" 
-            title="Learn More" 
-            description="Understand how oral health influences the entire body - from inflammation to chronic disease." 
-          />
-          <Conference 
-            stepNumber="02" 
-            title="Expert Speakers" 
-            description="Learn from leading experts in biological dentistry, microbiology, and integrative health." 
-          />
-          <Conference 
-            stepNumber="03" 
-            title="Real-world Value" 
-            description="Practical approaches and actionable protocols you can implement immediately." 
-          />
-          <Conference 
-            stepNumber="04" 
-            title="One Health" 
-            description="Bridging the gap between specialized dentistry and systemic wellness." 
-          />
-        </section>
+        <BlurFadeIn>
+          <section className="w-full flex flex-col items-center gap-2">
+            <div className="max-w-3xl flex flex-col items-center text-center mb-8 px-6">
+              <h2 className="text-4xl md:text-5xl font-light text-primary mb-4 tracking-tight">Conference Focus</h2>
+              <p className="text-gray-600 font-light text-base md:text-lg leading-relaxed">
+                Two Days. Two Perspectives. One Complete Picture of Your Health. This is where symptoms stop being random, and start making sense.
+              </p>
+            </div>
 
-        <div id="tickets" className="w-full flex justify-center bg-zinc-50 py-24">
+            <Conference 
+              stepNumber="01" 
+              title="Oral Health and the Body" 
+              description="Understanding how what happens in the mouth may influence other areas of health, including inflammation and ongoing symptoms." 
+            />
+            <Conference 
+              stepNumber="02" 
+              title="Infection and Imbalance" 
+              description="Exploring how infections and microbial imbalance in the mouth may contribute to broader health challenges." 
+            />
+            <Conference 
+              stepNumber="03" 
+              title="Looking Beyond the Surface" 
+              description="Recognising patterns that may not always be visible in standard care, and asking better questions around long-term health." 
+            />
+            <Conference 
+              stepNumber="04" 
+              title="Clinical Insight and Experience" 
+              description="Learning from practitioners and researchers who are observing these patterns in real-world settings." 
+            />
+            <Conference 
+              stepNumber="05" 
+              title="Bringing Disciplines Together" 
+              description="Connecting dentistry, healthcare, and holistic approaches to create a more complete understanding of health." 
+            />
+          </section>
+        </BlurFadeIn>
+
+        <BlurFadeIn id="tickets" className="flex justify-center">
           <PackageSec />
-        </div>
+        </BlurFadeIn>
 
         {/* Sponsorship / Contact Form Wrapper */}
-        <div className="w-full flex flex-col items-center bg-white py-24 px-6 text-center">
-            <h2 className="text-4xl lg:text-5xl font-light text-primary mb-4">Sponsorship Opportunities</h2>
-            <p className="text-lg text-gray-600 font-light max-w-2xl mb-12">
-              Interested in becoming a sponsor? Please submit your expression of interest via the form below.
-            </p>
-            <div className="w-full flex justify-center">
-              <ContactForm />
-            </div>
-        </div>
+        <BlurFadeIn>
+          <div className="w-full flex flex-col items-center px-6 text-center">
+              <h2 className="text-4xl lg:text-5xl font-light text-primary mb-4">Sponsorship Opportunities</h2>
+              <p className="text-lg text-gray-600 font-light max-w-2xl mb-12">
+                Interested in becoming a sponsor? Please submit your expression of interest via the form below.
+              </p>
+              <div className="w-full flex justify-center">
+                <ContactForm />
+              </div>
+          </div>
+        </BlurFadeIn>
 
-        <div className="w-full flex justify-center bg-zinc-50 py-24 mt-10">
+        <BlurFadeIn className="flex justify-center">
           <Cta />
-        </div>
+        </BlurFadeIn>
 
       </main>
     </div>
