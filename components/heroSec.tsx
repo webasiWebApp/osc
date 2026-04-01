@@ -64,8 +64,8 @@ export default function HeroSec() {
         </div>
 
         {/* Bottom Left Content (Date, Location, and Paragraph) */}
-        {/* Hidden on very small mobile screens to prevent clutter, visible on sm and up */}
-        <div className="absolute bottom-8 left-6 md:bottom-12 md:left-12 max-w-xs md:max-w-md flex flex-col gap-6 z-10 hidden sm:flex">
+        {/* Visible on all screen sizes */}
+        <div className="absolute bottom-8 left-6 right-6 md:right-auto md:bottom-12 md:left-12 max-w-xs md:max-w-md flex flex-col gap-6 z-10">
           
           {/* Location & Date */}
           <div className="flex items-start gap-3">
@@ -83,7 +83,7 @@ export default function HeroSec() {
         </div>
 
         {/* Bottom Center Video Thumbnail */}
-        <div className="absolute bottom-6 left-1/2 -translate-x-1/2 md:bottom-10 z-20">
+        <div className="hidden md:block absolute bottom-6 left-1/2 -translate-x-1/2 md:bottom-10 z-20">
           
           <button 
             className="group relative w-40 h-24 md:w-56 md:h-32 rounded-2xl overflow-hidden border-2 border-white/40 shadow-xl transition-all duration-300 hover:scale-105 hover:border-white hover:shadow-2xl"
