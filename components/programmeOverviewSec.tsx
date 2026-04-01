@@ -51,18 +51,7 @@ export default function ProgrammeOverviewSec() {
         </p>
       </div>
 
-      {/* Top CTA Button */}
-      {/* Using 'solid' variant to perfectly match the dark blue button in your mockup */}
-      <div className="mb-14">
-        <CTAButton 
-          btnText="Meet the Speakers" 
-          variant="solid" 
-          onClick={() => {
-            // Smooth scroll to speakers section
-            document.getElementById('speaker-grid')?.scrollIntoView({ behavior: 'smooth' });
-          }}
-        />
-      </div>
+      
 
       {/* Grid Layout for the Cards */}
       <div className="w-full max-w-5xl grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-6 place-items-center md:place-items-stretch">

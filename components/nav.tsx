@@ -37,11 +37,11 @@ export default function Nav() {
           : 'bg-transparent'
       }`}
     >
-      <div className=" mx-auto px-20 flex items-center justify-between">
+      <div className=" mx-auto md:px-20 px-5 flex items-center justify-between">
         
         {/* Logo Section */}
-        <Link href="#home" className="flex items-center gap-2 z-50">
-          <div className="relative w-20 h-20 md:w-28 md:h-28 transition-transform duration-300 hover:scale-105">
+        <Link href="#home" className="flex items-center justify-center gap-2 z-50">
+          <div className="relative w-20 h-20 md:w-24 md:h-24 = transition-transform duration-300 hover:scale-105">
             {/* Replace this src with your actual logo image path from the public folder */}
             <Image 
               src="/logo.png" 
@@ -77,28 +77,36 @@ export default function Nav() {
 
         {/* Mobile Menu Toggle Button */}
         <button 
-          className="md:hidden z-50 text-primary p-2"
-          onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-          aria-label="Toggle Menu"
+          className="md:hidden relative z-40 text-primary p-2"
+          onClick={() => setIsMobileMenuOpen(true)}
+          aria-label="Open Menu"
         >
-          {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+          <Menu size={28} />
         </button>
 
       </div>
 
       {/* Mobile Navigation Overlay */}
       <div 
-        className={`fixed inset-0 bg-white z-40 flex flex-col items-center justify-center transition-transform duration-500 ease-in-out md:hidden ${
+        className={`fixed inset-0 bg-white/80 backdrop-blur-md z-50 flex flex-col items-start justify-center px-10 transition-transform duration-500 ease-in-out md:hidden ${
           isMobileMenuOpen ? 'translate-y-0 opacity-100' : '-translate-y-full opacity-0 pointer-events-none'
         }`}
       >
-        <nav className="flex flex-col items-center gap-8 mb-12">
+        <button 
+          className="absolute top-8 right-5 text-primary p-2"
+          onClick={() => setIsMobileMenuOpen(false)}
+          aria-label="Close Menu"
+        >
+          <X size={32} />
+        </button>
+
+        <nav className="flex flex-col items-start gap-8 mb-12">
           {navLinks.map((link) => (
             <Link 
               key={link.name} 
               href={link.href}
               onClick={() => setIsMobileMenuOpen(false)}
-              className="relative text-primary text-2xl font-light transition-colors hover:text-blue-500 after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 hover:after:w-full after:h-[1px] after:bg-blue-500 after:transition-all after:duration-300"
+              className="relative text-primary text-3xl font-light transition-colors hover:text-blue-500 after:content-[''] after:absolute after:-bottom-1 after:left-0 after:w-0 hover:after:w-full after:h-[1px] after:bg-blue-500 after:transition-all after:duration-300"
             >
               {link.name}
             </Link>

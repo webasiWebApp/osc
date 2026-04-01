@@ -27,18 +27,21 @@ export default function Conference({
       <div className="group relative z-10 flex flex-col md:flex-row items-center justify-between w-full gap-10 md:gap-6 cursor-pointer">
         
         {/* Left Side: Numbering and Text Content */}
-        <div className="flex items-center gap-6 md:gap-8 w-full md:w-2/3">
+        <div className="flex flex-col md:flex-row items-center justify-center text-center md:text-left gap-4 md:gap-8 w-full md:w-2/3">
           
-          {/* Timeline Node Circle */}
-          <div className="w-7 h-7 flex-shrink-0 rounded-full border border-blue-400 bg-white" />
-          
-          {/* Oversized Background Number */}
-          <div className="text-[6rem] md:text-[8rem] font-bold text-[#0077B6] opacity-[0.1] group-hover:opacity-100 transition-opacity duration-500 leading-none select-none tracking-tighter">
-            {stepNumber}
+          {/* Icon and Number Grouped */}
+          <div className="flex items-center justify-center gap-4 md:gap-8">
+            {/* Timeline Node Circle */}
+            <div className="w-7 h-7 flex-shrink-0 rounded-full border border-blue-400 bg-white" />
+            
+            {/* Oversized Background Number */}
+            <div className="text-[5rem] md:text-[8rem] font-bold text-[#0077B6] opacity-[0.1] group-hover:opacity-100 transition-opacity duration-500 leading-none select-none tracking-tighter">
+              {stepNumber}
+            </div>
           </div>
           
           {/* Text Block */}
-          <div className="flex flex-col gap-2 max-w-lg">
+          <div className="flex flex-col items-center md:items-start gap-2 max-w-lg mt-2 md:mt-0">
             <h3 className="text-2xl font-normal text-primary">
               {title}
             </h3>
@@ -50,7 +53,7 @@ export default function Conference({
         </div>
 
         {/* Right Side: Image Container */}
-        <div className="relative w-full md:w-1/3 flex justify-end">
+        <div className="relative w-full md:w-1/3 flex justify-center md:justify-end mt-8 md:mt-0">
           <div className="relative w-full max-w-[280px] aspect-[4/3] rounded-xl overflow-hidden shadow-sm">
             {/* Replace src with your actual image path */}
             <Image 

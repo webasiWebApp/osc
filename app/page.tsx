@@ -14,7 +14,7 @@ import BlurFadeIn from "@/components/blurFadeIn";
 export default function Home() {
   return (
     <div className="flex flex-col flex-1 font-sans min-h-screen pt-20">
-      <main className="flex flex-col w-full overflow-hidden gap-[100px] pb-[100px]">
+      <main className="flex flex-col w-full overflow-hidden gap-[30px] md:gap-[100px] pb-[100px]">
         
         <BlurFadeIn id="home">
           <HeroSec />

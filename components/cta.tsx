@@ -7,9 +7,9 @@ import CTAButton from './CTAButton';
 
 export default function Cta() {
   return (
-    <section className="w-full  mx-auto px-20 py-16 lg:py-24">
+    <section className="w-full  mx-auto px-6 py-16 lg:py-24">
       {/* Main Container */}
-      <div className="relative w-full rounded-[2.5rem] bg-surface-deep overflow-hidden flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 gap-10 lg:gap-16 shadow-2xl">
+      <div className="relative w-full rounded-[1.5rem] md:rounded-[2.5rem] bg-surface-deep overflow-hidden flex flex-col lg:flex-row items-center justify-between p-8 lg:p-16 gap-10 lg:gap-16 shadow-2xl">
         
         {/* Subtle Background Watermark Graphic (Absolute Positioned) */}
         {/* You will need to replace this src with your actual faint lung/tree graphic */}
@@ -24,7 +24,7 @@ export default function Cta() {
         </div>
 
         {/* Left Column: Text & Button */}
-        <div className="relative z-10 flex flex-col items-start w-full lg:w-1/2">
+        <div className="relative z-10 flex flex-col items-center lg:items-start text-center lg:text-left w-full lg:w-1/2">
           <h2 className="text-4xl lg:text-[3rem] font-light text-white leading-[1.15] tracking-tight mb-6">
             Ready to Expand Your <br className="hidden lg:block" />
             Perspective?
@@ -39,14 +39,14 @@ export default function Cta() {
           {/* Using the CTA Button we built earlier. 
               The 'outline' variant perfectly matches the white button with blue text in your mockup. */}
           <CTAButton 
-            btnText="Reserve Your Seat Now" 
+            btnText="Reserve Your Seat" 
             variant="outline" 
             onClick={() => window.location.href = 'https://www.trybooking.com/DIOAS'}
           />
         </div>
 
         {/* Right Column: Featured Image */}
-        <div className="relative z-10 w-full lg:w-1/2 flex justify-end">
+        <div className="relative z-10 w-full lg:w-1/2 flex justify-center lg:justify-end">
           <div className="relative w-full max-w-[500px] aspect-[4/5] lg:aspect-[1/1] rounded-3xl overflow-hidden shadow-xl border border-white/10">
             {/* Replace with your actual clinic image */}
             <Image

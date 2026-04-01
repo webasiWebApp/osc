@@ -23,7 +23,7 @@ const InstagramIcon = () => (
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-primary text-white py-12 lg:py-16 mt-auto">
+    <footer className="w-full bg-[#1a1d51] text-white py-12 lg:py-16 mt-auto">
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 md:gap-12 mb-12">
         {/* Logo & About */}
         <div className="flex flex-col gap-6">

@@ -39,7 +39,7 @@ export default function IconList() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 items-center justify-center flex">
         
         {items.map((item) => (
-          <div key={item.id} className="flex items-start  gap-5 group">
+          <div key={item.id} className="flex flex-col md:flex-row items-center md:items-start text-center md:text-left gap-4 md:gap-5 group">
             
             {/* Icon Container: The dark blue circle */}
             <div className="relative flex-shrink-0 w-[4.5rem] h-[4.5rem] rounded-full bg-primary flex items-center justify-center shadow-sm transition-transform duration-300 group-hover:scale-105">
@@ -49,17 +49,16 @@ export default function IconList() {
                   alt={`${item.title} icon`}
                   fill
                   className="object-contain"
-              
                 />
               </div>
             </div>
 
             {/* Text Container */}
-            <div className="flex flex-col mt-1">
+            <div className="flex flex-col mt-2 md:mt-1 items-center md:items-start">
               <h3 className="text-2xl font-semibold text-primary mb-2 tracking-tight">
                 {item.title}
               </h3>
-              <p className="text-sm text-gray-600 leading-relaxed pr-4">
+              <p className="text-sm text-gray-600 leading-relaxed md:pr-4">
                 {item.description}
               </p>
             </div>
