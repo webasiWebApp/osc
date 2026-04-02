@@ -121,7 +121,11 @@ export default function PackageSec() {
           </ul>
 
           <div className="mt-auto flex justify-center w-full">
-            <CTAButton btnText="Learn More" variant="outline" />
+            <CTAButton 
+              btnText="Learn More" 
+              variant="outline" 
+              onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'} 
+            />
           </div>
         </GlowCard>
 
@@ -152,7 +156,11 @@ export default function PackageSec() {
           </ul>
 
           <div className="mt-auto flex justify-center w-full">
-            <CTAButton btnText="Learn More" variant="outline" />
+            <CTAButton 
+              btnText="Learn More" 
+              variant="outline" 
+              onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'} 
+            />
           </div>
         </GlowCard>
 
@@ -183,7 +191,11 @@ export default function PackageSec() {
           </ul>
 
           <div className="mt-auto flex justify-center w-full">
-            <CTAButton btnText="Learn More" variant="outline" />
+            <CTAButton 
+              btnText="Learn More" 
+              variant="outline" 
+              onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'} 
+            />
           </div>
         </GlowCard>
 

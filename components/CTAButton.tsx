@@ -34,7 +34,7 @@ export default function CTAButton({
     <button
       type={type}
       onClick={onClick}
-      className={`group flex items-center justify-between rounded-full pl-8 pr-2 py-2 transition-all duration-300 ease-in-out hover:shadow-lg ${containerClasses} ${className}`}
+      className={`group flex items-center justify-between rounded-full pl-8 pr-2 py-2 transition-all duration-300 ease-in-out hover:shadow-lg cursor-pointer ${containerClasses} ${className}`}
     >
       <span className="text-lg font-light transition-all duration-300 ease-in-out group-hover:tracking-wide">
         {btnText}

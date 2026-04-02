@@ -41,7 +41,7 @@ export default function Cta() {
           <CTAButton 
             btnText="Reserve Your Seat" 
             variant="outline" 
-            onClick={() => window.location.href = 'https://www.trybooking.com/DIOAS'}
+            onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'}
           />
         </div>
 

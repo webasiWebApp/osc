@@ -99,9 +99,10 @@ export default function ContactForm() {
 
       {/* Adding a sleek submit button to complete the form */}
       <CTAButton 
-        type="submit"
+        type="button"
         btnText="Send Message"
         className="mt-4"
+        onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'}
       />
     </form>
   );

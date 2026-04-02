@@ -71,13 +71,13 @@ export default function Nav() {
           <CTAButton 
             btnText="Reserve Your Seat" 
             variant="solid" 
-            onClick={() => window.location.href = 'https://www.trybooking.com/DIOAS'}
+            onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'}
           />
         </div>
 
         {/* Mobile Menu Toggle Button */}
         <button 
-          className="md:hidden relative z-40 text-primary p-2"
+          className="md:hidden relative z-40 text-primary p-2 cursor-pointer"
           onClick={() => setIsMobileMenuOpen(true)}
           aria-label="Open Menu"
         >
@@ -93,7 +93,7 @@ export default function Nav() {
         }`}
       >
         <button 
-          className="absolute top-8 right-5 text-primary p-2"
+          className="absolute top-8 right-5 text-primary p-2 cursor-pointer"
           onClick={() => setIsMobileMenuOpen(false)}
           aria-label="Close Menu"
         >
@@ -118,7 +118,7 @@ export default function Nav() {
           variant="solid" 
           onClick={() => {
             setIsMobileMenuOpen(false);
-            window.location.href = 'https://www.trybooking.com/DIOAS';
+            window.location.href = 'https://www.trybooking.com/DKWFJ';
           }}
         />
       </div>

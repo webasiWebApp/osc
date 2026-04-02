@@ -59,7 +59,7 @@ export default function HeroSec() {
           <CTAButton
             btnText="Reserve Your Seat Now"
             variant="outline"
-            onClick={() => window.location.href = 'https://www.trybooking.com/DIOAS'}
+            onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'}
           />
         </div>
 
@@ -86,7 +86,7 @@ export default function HeroSec() {
         <div className="hidden md:block absolute bottom-6 left-1/2 -translate-x-1/2 md:bottom-10 z-20">
           
           <button 
-            className="group relative w-40 h-24 md:w-56 md:h-32 rounded-2xl overflow-hidden border-2 border-white/40 shadow-xl transition-all duration-300 hover:scale-105 hover:border-white hover:shadow-2xl"
+            className="group relative w-40 h-24 md:w-56 md:h-32 rounded-2xl overflow-hidden border-2 border-white/40 shadow-xl transition-all duration-300 hover:scale-105 hover:border-white hover:shadow-2xl cursor-pointer"
             aria-label="Play promotional video"
             onClick={() => setIsVideoPlaying(true)}
           >

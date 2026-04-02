@@ -50,7 +50,7 @@ export default function AboutSec() {
         <CTAButton 
           btnText="Reserve Your Seat" 
           variant="solid" 
-          onClick={() => window.location.href = 'https://www.trybooking.com/DIOAS'}
+            onClick={() => window.location.href = 'https://www.trybooking.com/DKWFJ'}
         />
       </div>
 
