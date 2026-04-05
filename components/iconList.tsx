@@ -15,20 +15,20 @@ export default function IconList() {
     {
       id: 'infection',
       title: 'Infection',
-      description: 'Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology.',
+      description: 'Exploring the transmission and pathology of oral pathogens. We analyze how localized infections serve as the catalyst for broader immunological responses.',
       // Replace with your actual image path in the /public folder
       iconSrc: '/secondSec/1.png', 
     },
     {
       id: 'imbalance',
       title: 'Imbalance',
-      description: 'Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology.',
+      description: 'Examining the disruption of the microbiome. This pillar focuses on how chemical and biological shifts impact patient stability and treatment outcomes.',
       iconSrc: '/secondSec/2.png',
     },
     {
       id: 'systemic-health',
       title: 'Systemic Health',
-      description: 'Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology, Microbiology.',
+      description: 'Connecting the dots between oral care and total body wellness. We bridge the gap between dental science and public health initiatives for holistic longevity.',
       iconSrc: '/secondSec/3.png',
     }
   ];

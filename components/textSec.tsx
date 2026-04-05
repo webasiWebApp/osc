@@ -48,11 +48,11 @@ export default function TextSec() {
 
   const contentSegments = [
     "What happens in the ",
-    <InlineImage key="1" imageUrl="https://images.unsplash.com/photo-1629909613654-28e377c37b09?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2xpbmljfGVufDB8MHwwfHx8Mg%3D%3D" />,
+    <InlineImage key="1" imageUrl="https://images.unsplash.com/photo-1658847075261-84ecf3e4ca56?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />,
     " does not stay in the ",
-    <InlineImage key="2" imageUrl="https://images.unsplash.com/photo-1606318313647-137d1f3b4d3c?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Y2xpbmljfGVufDB8MHwwfHx8Mg%3D%3D" />,
+    <InlineImage key="2" imageUrl="https://images.unsplash.com/photo-1678473882249-6378b6e12241?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8" />,
     ". Oral infections, hidden bacteria, and chronic inflammation can influence the entire ",
-    <InlineImage key="3" imageUrl="https://images.unsplash.com/photo-1580281780460-82d277b0e3f8?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGNsaW5pY3xlbnwwfDB8MHx8fDI%3D" />,
+    <InlineImage key="3" imageUrl="https://images.unsplash.com/photo-1719825627865-37cc6aa67d0e?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />,
     ", from fatigue and immune dysfunction to long-term disease. Yet most ",
     <InlineImage key="4" imageUrl="https://images.unsplash.com/photo-1740410643780-883b33ee1b86?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGNsaW5pY3xlbnwwfDB8MHx8fDI%3D" />,
     " are never shown how these connections work. This conference brings those missing links into focus."

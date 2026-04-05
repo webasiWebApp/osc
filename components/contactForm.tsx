@@ -60,7 +60,7 @@ export default function ContactForm() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Add your form submission logic here (e.g., EmailJS or custom API route)
+    // Add your form submission logic  (e.g., EmailJS or custom API route)
     console.log('Form submitted:', formData);
   };
 
@@ -68,7 +68,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit} className="w-full max-w-2xl mx-auto bg-transparent p-6">
       <FormField 
         id="name" 
-        label="Your Name Here" 
+        label="Your Name " 
         value={formData.name} 
         onChange={handleChange} 
       />
@@ -76,7 +76,7 @@ export default function ContactForm() {
       <FormField 
         id="email" 
         type="email" 
-        label="Your E-mail Here" 
+        label="Your E-mail " 
         value={formData.email} 
         onChange={handleChange} 
       />
@@ -84,7 +84,7 @@ export default function ContactForm() {
       <FormField 
         id="mobile" 
         type="tel" 
-        label="Your Mobile Number Here" 
+        label="Your Mobile Number " 
         value={formData.mobile} 
         onChange={handleChange} 
       />

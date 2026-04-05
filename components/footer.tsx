@@ -83,13 +83,10 @@ export default function Footer() {
               <MapPin className="w-5 h-5 flex-shrink-0 mt-0.5" />
               <p>Mantra on Russell<br/>Melbourne, Australia</p>
             </div>
-            <div className="flex items-center gap-3 text-white/80 text-sm font-light">
-              <Phone className="w-5 h-5 flex-shrink-0" />
-              <p>+61 (0) 123 456 789</p>
-            </div>
+            
             <div className="flex items-center gap-3 text-white/80 text-sm font-light">
               <Mail className="w-5 h-5 flex-shrink-0" />
-              <p>info@oscsummit.com.au</p>
+              <p>van@thenaturalhealthoption.com.au</p>
             </div>
           </div>
         </div>

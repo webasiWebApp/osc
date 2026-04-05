@@ -28,7 +28,7 @@ export default function SpeakerSec() {
       imageSrc: "/team/3.png", 
     },
     {
-      name: "Susan Russle",
+      name: "Susan Rusalen",
       roles: "Dental Hygienist | Oral Microbiome Educator | Clinical Consultant",
       bio: "Susan Rusalen is an internationally recognised dental hygienist, educator, and consultant who has spent nearly four decades transforming dentistry through prevention, microbiome science, and hygiene-led patient care and oral microbiome educator with a strong focus on preventive care and microbial balance. Her work supports both patients and practitioners in understanding the role of the oral microbiome in long-term health.",
       imageSrc: "/team/4.png", 

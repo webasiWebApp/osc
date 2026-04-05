@@ -75,13 +75,13 @@ export default function Home() {
               stepNumber="04" 
               title="Clinical Insight and Experience" 
               description="Learning from practitioners and researchers who are observing these patterns in real-world settings." 
-              imageSrc="https://images.unsplash.com/photo-1774008932487-4eb60bd4ddfb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fHBhcmFzaXRlcyUyMGRlbnRhbCUyMG1lcmN1cnklMjBhbmQlMjBwYXRob2xvZ3klMjB3aXRoJTIwc29tZSUyMG9yYWwlMjBoZWFsdGglMjBwaWN0dXJlfGVufDB8fDB8fHwy"
+              imageSrc="https://images.unsplash.com/photo-1631596647474-6b153ca43975?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
             <Conference 
               stepNumber="05" 
               title="Bringing Disciplines Together" 
               description="Connecting dentistry, healthcare, and holistic approaches to create a more complete understanding of health." 
-              imageSrc="https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjE3fHxwYXJhc2l0ZXMlMjBkZW50YWwlMjBtZXJjdXJ5JTIwYW5kJTIwcGF0aG9sb2d5JTIwd2l0aCUyMHNvbWUlMjBvcmFsJTIwaGVhbHRoJTIwcGljdHVyZXxlbnwwfHwwfHx8Mg%3D%3D"
+              imageSrc="https://images.unsplash.com/photo-1614935151651-0bea6508db6b?q=80&w=1225&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             />
           </section>
         </BlurFadeIn>
