@@ -10,7 +10,7 @@ export default function ProgrammeOverviewSec() {
   // This keeps the JSX clean and makes it easy to update content later.
   const programData: ProgramOverviewProps[] = [
     {
-      dayLabel: "Day 01",
+      dayLabel: "Day 1",
       title: "Public Education Day",
       subtitle: "Oral Health, Pathology, and the Impact of Mercury",
       imageSrc: "https://images.unsplash.com/photo-1733119883210-04f09d5f86df?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", // Replace with your actual image
@@ -23,7 +23,7 @@ export default function ProgrammeOverviewSec() {
       ]
     },
     {
-      dayLabel: "Day 02",
+      dayLabel: "Day 2",
       title: "Practitioner Day",
       subtitle: "Oral-Systemic Infection Clinical Conference",
       imageSrc: "https://images.unsplash.com/photo-1598256989809-394fa4f6cd26?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDM3fHx8ZW58MHx8fHx8", // Replace with your actual image
