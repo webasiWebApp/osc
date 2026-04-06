@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         {/* Services */}
-        <div className="flex flex-col gap-6">
+        {/* <div className="flex flex-col gap-6">
           <h4 className="text-lg font-medium tracking-wide">Services</h4>
           <nav className="flex flex-col gap-3">
             <Link href="#" className="text-white/80 hover:text-white transition-colors text-sm font-light">Sponsorships</Link>
@@ -73,7 +73,7 @@ export default function Footer() {
             <Link href="#" className="text-white/80 hover:text-white transition-colors text-sm font-light">Clinical Support</Link>
             <Link href="#" className="text-white/80 hover:text-white transition-colors text-sm font-light">Research Guidelines</Link>
           </nav>
-        </div>
+        </div> */}
 
         {/* Contact */}
         <div className="flex flex-col gap-6">

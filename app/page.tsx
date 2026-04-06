@@ -48,9 +48,9 @@ export default function Home() {
           <section className="w-full flex flex-col items-center gap-2">
             <div className="max-w-3xl flex flex-col items-center text-center mb-8 px-6">
               <h2 className="text-4xl md:text-5xl font-light text-primary mb-4 tracking-tight">Conference Focus</h2>
-              <p className="text-gray-600 font-light text-base md:text-lg leading-relaxed">
+              {/* <p className="text-gray-600 font-light text-base md:text-lg leading-relaxed">
                 Two Days. Two Perspectives. One Complete Picture of Your Health. This is where symptoms stop being random, and start making sense.
-              </p>
+              </p> */}
             </div>
 
             <Conference 

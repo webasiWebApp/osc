@@ -32,7 +32,9 @@ export default function ProgrammeOverviewSec() {
         "Infection-driven inflammation",
         "Systemic disease correlations",
         "Clinical case insights",
-        "Translational application"
+        "Translational application",
+        "8 CPE points per day ",
+        "practitioner goodie bag"
       ]
     }
   ];
