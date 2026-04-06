@@ -27,7 +27,7 @@ export default async function SpeakerPage({ params }: { params: Promise<{ slug: 
   if (!speaker) notFound();
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-[#f0f4ff] via-white to-[#e8f0fe]">
+    <main className="min-h-screen bg-gradient-to-br from-[#f0f4ff] via-white to-[#e8f0fe] pt-32">
 
       {/* Back navigation */}
       <div className="max-w-6xl mx-auto px-6 pt-8">

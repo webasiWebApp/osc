@@ -93,9 +93,9 @@ export default function Home() {
         {/* Sponsorship / Contact Form Wrapper */}
         <BlurFadeIn>
           <div className="w-full flex flex-col items-center px-6 text-center">
-              <h2 className="text-4xl lg:text-5xl font-light text-primary mb-4">Sponsorship Opportunities</h2>
+              <h2 className="text-4xl lg:text-5xl font-light text-primary mb-4">Get In Touch</h2>
               <p className="text-lg text-gray-600 font-light max-w-2xl mb-12">
-                Interested in becoming a sponsor? Please submit your expression of interest via the form below.
+                If you have any enquiries please send a message
               </p>
               <div className="w-full flex justify-center">
                 <ContactForm />
