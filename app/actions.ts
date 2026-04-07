@@ -17,7 +17,7 @@ export async function sendContactEmail(data: {
   try {
     await resend.emails.send({
       from: 'OSC Contact Form <hello@oralsystemichealth.au>',
-      to: 'infopraveenmaleesha@gmail.com',
+      to: 'van@thenaturalhealthoption.com.au',
       subject: `New Enquiry from ${data.name}`,
       replyTo: data.email,
       html: `
