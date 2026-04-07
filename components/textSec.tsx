@@ -50,7 +50,7 @@ export default function TextSec() {
     "What happens in the ",
     <InlineImage key="1" imageUrl="https://images.unsplash.com/photo-1658847075261-84ecf3e4ca56?q=80&w=1333&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />,
     " does not stay in the ",
-    <InlineImage key="2" imageUrl="https://images.unsplash.com/photo-1678473882249-6378b6e12241?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDI1fHx8ZW58MHx8fHx8" />,
+    <InlineImage key="2" imageUrl="https://images.unsplash.com/photo-1654374504608-67c4cfe65fca?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fG1vdXRofGVufDB8fDB8fHwy" />,
     ". Oral infections, hidden bacteria, and chronic inflammation can influence the entire ",
     <InlineImage key="3" imageUrl="https://images.unsplash.com/photo-1719825627865-37cc6aa67d0e?q=80&w=1332&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />,
     ", from fatigue and immune dysfunction to long-term disease. Yet most ",
