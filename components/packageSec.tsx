@@ -135,7 +135,7 @@ export default function PackageSec() {
           
           <div className="flex items-center justify-center gap-6 mb-10">
             <div className="flex flex-col text-center">
-              <span className="text-[2.75rem] font-bold text-white leading-none">$295</span>
+              <span className="text-[2.75rem] font-bold text-white leading-none">$495</span>
               <span className="text-sm text-blue-200 mt-2">(General)</span>
             </div>
             <div className="w-px h-16 bg-blue-400/30" />
