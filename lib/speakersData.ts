@@ -105,6 +105,13 @@ export const speakers: SpeakerProps[] = [
     bio: "Anita Vazquez Tibau is an internationally recognised advocate, author, and researcher dedicated to eliminating toxic mercury, with a strong focus on achieving a global ban on dental amalgam.",
     imageSrc: "/team/3.png",
     speakingOn: "The Oral-Systemic Connection"
+  },
+  {
+    name: "Deborah Harrison",
+    slug: "deborah-harrison",
+    roles: "Dental Hygienist and Therapist",
+    bio: "Deborah Harrison is a highly experienced dental hygienist and therapist with over three decades in periodontal care. Known for her willingness to challenge conventional thinking, she explores the evolving science behind gum disease, including complex microbial and parasitic interactions and emerging therapies. Her current work focuses on bridging clinical practice with new research in light therapy, tissue healing, and integrative oral health. Deborah is also writing another book that brings together these perspectives, offering a fresh and thought-provoking view of periodontal disease.",
+    imageSrc: "/team/7.png"
   }
 ];
 

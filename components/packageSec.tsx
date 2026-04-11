@@ -101,7 +101,7 @@ export default function PackageSec() {
           
           <div className="flex flex-col text-center mb-6">
             <span className="text-[2.75rem] font-bold text-white leading-none">$295</span>
-            <span className="text-sm text-blue-200 mt-2">Day 1 — Public</span>
+            <span className="text-sm text-blue-200 mt-2">Day 1 — Students</span>
           </div>
           
           <ul className="flex flex-col gap-4 mb-8">
@@ -136,7 +136,7 @@ export default function PackageSec() {
           <div className="flex items-center justify-center gap-6 mb-10">
             <div className="flex flex-col text-center">
               <span className="text-[2.75rem] font-bold text-white leading-none">$495</span>
-              <span className="text-sm text-blue-200 mt-2">(General)</span>
+              <span className="text-sm text-blue-200 mt-2">(Students)</span>
             </div>
             <div className="w-px h-16 bg-blue-400/30" />
             <div className="flex flex-col text-center">

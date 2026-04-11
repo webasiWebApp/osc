@@ -35,9 +35,15 @@ export default function SpeakerCard({ speaker }: { speaker: SpeakerProps }) {
 
   return (
     <div
-      className="relative w-full max-w-[320px] h-[450px] rounded-[2rem] border border-blue-100 bg-white overflow-hidden cursor-pointer group shadow-sm hover:shadow-xl transition-shadow duration-500"
+      className="relative w-full max-w-[320px] h-[450px] rounded-[2rem] border border-blue-100 bg-white overflow-hidden cursor-pointer md:cursor-pointer group shadow-sm hover:shadow-xl transition-shadow duration-500"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
+      onClick={() => {
+        // Toggle hover state on mobile
+        if (window.innerWidth < 768) {
+          setIsHovered(!isHovered);
+        }
+      }}
     >
       {/* Speaker Cutout Image */}
       <div className="absolute inset-0 pt-10 px-4">
@@ -50,16 +56,24 @@ export default function SpeakerCard({ speaker }: { speaker: SpeakerProps }) {
         />
       </div>
 
+      {/* Mobile Hint: Click on photo for bio */}
+      <div className={`absolute top-4 right-4 bg-white/80 backdrop-blur-sm px-3 py-1.5 rounded-full z-10 md:hidden transition-opacity duration-300 ${isHovered ? 'opacity-0' : 'opacity-100'}`}>
+        <p className="text-[10px] font-medium text-[#202561] flex items-center gap-1.5">
+          <svg xmlns="http://www.w3.org/-icons/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m9 18 6-6-6-6"/></svg>
+          Tap for bio
+        </p>
+      </div>
+
       {/* Hover State: Background Gradient Overlay */}
       <motion.div
         variants={gradientVariants}
         initial="hidden"
         animate={isHovered ? 'visible' : 'hidden'}
-        className="absolute inset-0 bg-gradient-to-t from-[#202561] via-[#202561]/80 to-transparent"
+        className="absolute inset-0 bg-gradient-to-t from-[#202561] via-[#202561]/80 to-transparent z-10"
       />
 
       {/* Content Container */}
-      <div className="absolute inset-0 flex flex-col justify-end p-6">
+      <div className="absolute inset-0 flex flex-col justify-end p-6 z-20">
 
         {/* Hover State: Text Content */}
         <div className="mb-4 text-left w-full overflow-hidden">
