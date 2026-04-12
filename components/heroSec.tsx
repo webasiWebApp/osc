@@ -49,7 +49,7 @@ export default function HeroSec() {
 
         {/* Main Centered Content */}
         <div className="absolute top-[45%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-full max-w-5xl px-6 flex flex-col items-center text-center z-10">
-          <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-light text-white leading-[1.1] tracking-tight mb-8 ">
+          <h1 className="text-4xl md:text-5xl lg:text-[4.5rem] font-light text-white leading-[1.1] tracking-tight mb-8 shadow-lg">
             Australian Oral–Systemic Infection <br className="hidden md:block" />
             & One Health Clinical Summit
           </h1>

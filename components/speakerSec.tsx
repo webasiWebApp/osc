@@ -16,9 +16,7 @@ export default function SpeakerSec() {
           Meet the Speakers
         </h2>
         <p className="text-sm md:text-base text-gray-600 font-light leading-relaxed">
-          Bridging Dentistry, Parasitology, Microbiology, and Public Health. Bridging Dentistry,
-          Parasitology, Microbiology, and Public Health. Bridging Dentistry, Parasitology,
-          Microbiology, and Public Health.
+          Bridging Dentistry, Parasitology, Microbiology, and Public Health. 
         </p>
       </div>
 
