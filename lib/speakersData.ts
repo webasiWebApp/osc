@@ -112,6 +112,25 @@ export const speakers: SpeakerProps[] = [
     roles: "Dental Hygienist and Therapist",
     bio: "Deborah Harrison is a highly experienced dental hygienist and therapist with over three decades in periodontal care. Known for her willingness to challenge conventional thinking, she explores the evolving science behind gum disease, including complex microbial and parasitic interactions and emerging therapies. Her current work focuses on bridging clinical practice with new research in light therapy, tissue healing, and integrative oral health. Deborah is also writing another book that brings together these perspectives, offering a fresh and thought-provoking view of periodontal disease.",
     imageSrc: "/team/7.png"
+  },
+  {
+    name: "Dr Lisa Matriste",
+    slug: "dr-lisa-matriste",
+    roles: "Biological Dentist | Mercury Detox Specialist",
+    bio: "Dr Lisa Matriste is a retired dentist with over 30 years of clinical experience, now focused on advancing awareness of mercury toxicity and the role of oral health in chronic disease. After experiencing mercury toxicity firsthand, she shifted from conventional dentistry to a root cause approach. She is the founder of Laser + Holistic Dental Clinic in Melbourne and Say No to Mercury, contributing to the United Nations Minamata Convention. Her work focuses on mercury exposure, sleep breathing disorders, and the role the mouth plays in overall health.",
+    imageSrc: "/team/8.png",
+    speakingOn: "Her personal journey with mercury and how it reshaped her approach to health and dentistry",
+    background: [
+      "Retired dentist with over 30 years of clinical experience",
+      "Founder of Laser + Holistic Dental Clinic in Melbourne",
+      "Founder of Say No to Mercury",
+      "Contributor to the United Nations Minamata Convention"
+    ],
+    expertise: [
+      "Mercury exposure",
+      "Sleep breathing disorders",
+      "The role the mouth plays in overall health"
+    ]
   }
 ];
 
