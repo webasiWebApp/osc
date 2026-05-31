@@ -131,6 +131,26 @@ export const speakers: SpeakerProps[] = [
       "Sleep breathing disorders",
       "The role the mouth plays in overall health"
     ]
+  },
+  {
+    name: "Dr Patsy Zendejas",
+    slug: "dr-patsy-zendejas",
+    roles: "Parasitology Researcher | McKenzie Fellow | One Health & Genomic Epidemiology",
+    bio: "Dr Patsy Zendejas is a parasitology researcher originally from Mexico who has been based in Australia for the past 13 years. She completed her PhD at the University of Melbourne, where she developed and applied molecular and genomic tools to study parasitic helminths, filarial parasites, and malaria in humans and animals across the Asia-Pacific and the Americas. Patsy is a McKenzie Fellow at the University of Melbourne, where her current research focuses on the transmission of zoonotic strongyloidiasis in remote Aboriginal communities using a One Health and genomic epidemiology approach. Her broader research interests include understanding pathogen transmission between humans and animals to support improved diagnostics, public health interventions, and sustainable control strategies for neglected tropical diseases and malaria.",
+    imageSrc: "/team/9.jpg",
+    speakingOn: "Zoonotic disease transmission, genomic epidemiology, and One Health approaches for neglected tropical diseases",
+    background: [
+      "PhD in Parasitology – University of Melbourne",
+      "McKenzie Fellow – University of Melbourne",
+      "Research across the Asia-Pacific and the Americas",
+      "Focus on molecular and genomic tools for parasitic disease study"
+    ],
+    expertise: [
+      "Parasitic helminths and filarial parasites",
+      "Zoonotic strongyloidiasis and One Health approaches",
+      "Genomic epidemiology and pathogen transmission",
+      "Neglected tropical diseases and malaria control"
+    ]
   }
 ];
 
