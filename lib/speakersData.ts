@@ -31,26 +31,6 @@ export const speakers: SpeakerProps[] = [
     ]
   },
   {
-    name: "Dr Andrew Taylor",
-    slug: "dr-andrew-taylor",
-    roles: "Biological Dentist | 32 Years Experience in Mercury-Free Dentistry",
-    bio: "Dr Andrew Taylor is a biological dentist with over three decades of experience in mercury-free dentistry and its impact on whole-body health. His work focuses on reducing toxic load and restoring oral environments to support long-term systemic wellbeing.",
-    imageSrc: "/team/5.png",
-    speakingOn: "Mercury toxicity, safe amalgam removal, and the role of dental health in systemic conditions",
-    background: [
-      "32+ years in biological dentistry",
-      "Trained in the Huggins Protocol for safe mercury removal",
-      "Experience in addressing root canal complications and chronic oral infections",
-      "Focus on integrating dental care with systemic health outcomes"
-    ],
-    expertise: [
-      "Mercury toxicity and amalgam removal",
-      "Oral infections and their systemic impact",
-      "Biological dentistry principles",
-      "Detoxification support in dental care"
-    ]
-  },
-  {
     name: "Dr Eric Davis",
     slug: "dr-eric-davis",
     roles: "Biological Dentist | Oral Medicine & Clinical Nutrition",
@@ -91,10 +71,10 @@ export const speakers: SpeakerProps[] = [
     ]
   },
   {
-    name: "Dr Blanche D Grube",
-    slug: "dr-blanche-d-grube",
-    roles: "Biological Dentist | Integrative Medicine Practitioner | Educator",
-    bio: "Dr Blanche D Grube is an internationally recognised biological dentist with over 40 years of clinical experience. Mentored by the late Dr Hal Huggins, she co-developed the Huggins–Grube Protocol.",
+    name: "Blanche D Grube",
+    slug: "blanche-d-grube",
+    roles: "Former Biological Dentist | Integrative Medicine Practitioner | Educator",
+    bio: "Blanche D Grube is an internationally recognised former biological dentist with over 40 years of clinical experience. Mentored by the late Dr Hal Huggins, she co-developed the Huggins–Grube Protocol.",
     imageSrc: "/team/2.png",
     speakingOn: "The Oral-Systemic Connection"
   },
@@ -114,14 +94,14 @@ export const speakers: SpeakerProps[] = [
     imageSrc: "/team/7.png"
   },
   {
-    name: "Dr Lisa Matriste",
-    slug: "dr-lisa-matriste",
-    roles: "Biological Dentist | Mercury Detox Specialist",
-    bio: "Dr Lisa Matriste is a retired dentist with over 30 years of clinical experience, now focused on advancing awareness of mercury toxicity and the role of oral health in chronic disease. After experiencing mercury toxicity firsthand, she shifted from conventional dentistry to a root cause approach. She is the founder of Laser + Holistic Dental Clinic in Melbourne and Say No to Mercury, contributing to the United Nations Minamata Convention. Her work focuses on mercury exposure, sleep breathing disorders, and the role the mouth plays in overall health.",
+    name: "Lisa Matriste",
+    slug: "lisa-matriste",
+    roles: "Former Dentist | Mercury Detox Specialist",
+    bio: "Lisa Matriste is a former dentist with over 30 years of clinical experience, now focused on advancing awareness of mercury toxicity and the role of oral health in chronic disease. After experiencing mercury toxicity firsthand, she shifted from conventional dentistry to a root cause approach. She is the founder of Laser + Holistic Dental Clinic in Melbourne and Say No to Mercury, contributing to the United Nations Minamata Convention. Her work focuses on mercury exposure, sleep breathing disorders, and the role the mouth plays in overall health.",
     imageSrc: "/team/8.png",
     speakingOn: "Her personal journey with mercury and how it reshaped her approach to health and dentistry",
     background: [
-      "Retired dentist with over 30 years of clinical experience",
+      "Former dentist with over 30 years of clinical experience",
       "Founder of Laser + Holistic Dental Clinic in Melbourne",
       "Founder of Say No to Mercury",
       "Contributor to the United Nations Minamata Convention"
